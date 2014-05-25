@@ -1,8 +1,16 @@
-+ I already put the folder of the data in the repository (UCI HAR Dataset)
+CodeBook from Getting and Cleaning Data project
+==========================
+I already put the folder of the data in the repository (UCI HAR Dataset)
 
-Run_analysis.R Opens the data and creates 2 tidy datas according to instructions
+Run_analysis.R Opens the data and creates 2 tidy datas according to instructions.
++ The R script File is completely commented so you can read the file or the CodeBook
 
-1. Merges the training and test sets to create one data set, namely
+1. First Step: Merges the training and the test sets to create one data set.
+#According to README.txt we have:
+# - 'train/X_train.txt': Training set.
+# - 'test/X_test.txt': Test set.
+#So we have to merge mXtest and mXtrain
+
 
 	train/X_train.txt with test/X_test.txt -- the result is a 10299 x 561 data frame,
 	as in the original description ("Number of Instances: 10299" and "Number of Attributes: 561")
