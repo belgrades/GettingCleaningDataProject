@@ -1,15 +1,15 @@
-+ I already put the folder of the data in the repository ( 
++ I already put the folder of the data in the repository (UCI HAR Dataset)
 
-+	The attached R script (run_analysis.R) performs the following to clean up the data:
+Run_analysis.R Opens the data and creates 2 tidy datas according to instructions
 
-* 1. Merges the training and test sets to create one data set, namely
+1. Merges the training and test sets to create one data set, namely
 
-+	train/X_train.txt with test/X_test.txt -- the result is a 10299 x 561 data frame,
-+	as in the original description ("Number of Instances: 10299" and "Number of Attributes: 561")
+	train/X_train.txt with test/X_test.txt -- the result is a 10299 x 561 data frame,
+	as in the original description ("Number of Instances: 10299" and "Number of Attributes: 561")
 
-+	train/subject_train.txt with test/subject_test.txt -- the result is a 10299 x 1 data frame with subject IDs,
+	train/subject_train.txt with test/subject_test.txt -- the result is a 10299 x 1 data frame with subject IDs,
 
-+	train/y_train.txt with test/y_test.txt -- the result is also a 10299 x 1 data frame with activity IDs.
+	train/y_train.txt with test/y_test.txt -- the result is also a 10299 x 1 data frame with activity IDs.
 
 * 2.  Reads file features.txt and extracts only the measurements on the mean and standard deviation
 +	for each measurement.
